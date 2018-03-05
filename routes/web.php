@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/book/war-and-peace', function () {
+    return 'You want to view the book war and peace...';
+});
