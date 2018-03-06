@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+'SupportEmail' => 'help@foobooks.mildredfakoya.me',
     /*
     |--------------------------------------------------------------------------
     | Application Name
