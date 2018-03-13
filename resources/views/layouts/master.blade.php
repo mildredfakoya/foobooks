@@ -19,6 +19,7 @@
 
 <footer>
     &copy; {{ date('Y') }}
+    <a href ='https://github.com/mildredfakoya/foobooks'>View on GitHub</a>
 </footer>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
