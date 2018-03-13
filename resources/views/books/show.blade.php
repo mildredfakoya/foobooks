@@ -1,27 +1,18 @@
-<!doctype html>
-<html>
-<head>
-    <title>{{ $title }}</title>
-    <meta charset='utf-8'>
-    <link href='/css/foobooks.css' type='text/css' rel='stylesheet'>
-</head>
-<body>
+@extends('layouts.master')
 
-<header>
-    <a href='/'><img src='/images/foobooks-logo@2x.png' id='logo' alt='Foobooks Logo'></a>
-</header>
+@section('title')
+    {{ $title }}
+@endsection
 
-<section>
+@push('head')
+    {{-- Page specific CSS includes should be defined here; this .css file does not exist yet, but we can create it --}}
+    <link href='/css/books/show.css' type='text/css' rel='stylesheet'>
+@endpush
+
+@section('content')
     <h1>{{ $title }}</h1>
 
     <p>
         Details about this book will go here...
     </p>
-</section>
-
-<footer>
-    &copy; {{ date('Y') }}
-</footer>
-
-</body>
-</html>
+@endsection
