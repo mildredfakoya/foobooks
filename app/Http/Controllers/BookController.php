@@ -11,6 +11,6 @@ class BookController extends Controller
     }
 
     public function show($title) {
-        return 'You are viewing a book ' . $title;
+        return  view('books.show') -> with(['title'=>$title]);
     }
 }
