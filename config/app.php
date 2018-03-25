@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'supportEmail' => 'help@foobooks.dwa15.me',
+    'supportEmail' => 'help@foobooks.mildredfakoya.me',
 
     'nav' => [
         '/books' => 'Books',
