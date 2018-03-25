@@ -8,6 +8,6 @@
     <h1>All the books</h1>
 
     <p>
-        A listing of all the books will go here...
+        A listing of all the books will eventually go here...
     </p>
 @endsection
